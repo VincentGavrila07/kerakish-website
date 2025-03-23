@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { CheckCircle } from "lucide-react";
-import BottleImage from "../assets/BotolKerakish.png";
+import BottleImage from "../assets/botolkerakish.png";
 
 const benefits = [
   "Mencegah kerak sebelum terbentuk - Mengurangi frekuensi pembersihan.",
