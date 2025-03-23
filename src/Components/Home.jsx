@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import hero1 from "../assets/hero1.jpeg";
 import hero2 from "../assets/hero2.jpg";
 import hero3 from "../assets/hero3.jpg";
-import DemoVideo from "../assets/demoKerakish.mp4";
+import DemoVideo from "../assets/demokerakish.mp4";
 
 const images = [hero1, hero2, hero3];
 
