@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from "../assets/Logo.png";
+import logo from "../assets/logo.png";
 import { Link } from "react-scroll";
 
 const Footer = () => {
@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 text-sm">
         {/* Brand Description */}
         <div>
-          <img src={Logo} alt="Logo Kerakish" className="w-32 h-auto" />
+          <img src={logo} alt="Logo Kerakish" className="w-32 h-auto" />
           <p className="mt-2 text-gray-800">
             Effortlessly remove stubborn scale and provide protection to prevent future buildup.
           </p>

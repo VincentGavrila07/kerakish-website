@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-scroll";
 import { Menu, X } from "lucide-react";
-import logo from "../assets/Logo.png";
+import logo from "../assets/logo.png";
 
 
 const Navbar = () => {
@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo */}
         <a href="/">
-          <img src={Logo} alt="Logo Kerakish" className="w-32 h-auto" />  
+          <img src={logo} alt="Logo Kerakish" className="w-32 h-auto" />  
         </a>
 
         {/* Desktop Menu */}
