@@ -26,7 +26,7 @@ const ContactUs = () => {
     <section id="contact">
 
         <div className="min-h-screen flex flex-col">
-        {/* Hero Section */}
+        {/* hero Section */}
         <div className="w-full bg-yellow-400 text-white text-center py-16">
             <h1 className="text-4xl font-bold">Contact Us</h1>
             <p className="mt-2 text-lg">We're here to help you with any inquiries.</p>

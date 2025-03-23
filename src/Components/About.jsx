@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from "framer-motion";
-import FotoKerakish from "../assets/ProdukKerakish.png";
+import FotoKerakish from "../assets/produkkerakish.png";
 
 const About = () => {
   return (

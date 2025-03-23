@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import UsageImage from "../assets/Hero2.jpg"; // Ganti dengan gambar yang sesuai
+import UsageImage from "../assets/hero2.jpg"; // Ganti dengan gambar yang sesuai
 
 const steps = [
   "Semprotkan Kerakish ke permukaan yang bersih dan kering.",

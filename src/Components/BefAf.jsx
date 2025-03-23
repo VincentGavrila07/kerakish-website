@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 // Ganti dengan path video & gambar yang sesuai
 import Before1 from "../assets/keran1.jpeg";
 import After1 from "../assets/keran2.jpeg";
-import Before2 from "../assets/Handler1.jpeg";
-import After2 from "../assets/Handler2.jpeg";
+import Before2 from "../assets/handler1.jpeg";
+import After2 from "../assets/handler2.jpeg";
 
 const imageVariants = {
   hidden: { opacity: 0, scale: 0.8 },

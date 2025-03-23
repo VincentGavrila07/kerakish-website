@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-import Hero1 from "../assets/Hero1.jpg";
-import Hero2 from "../assets/Hero2.jpg";
-import Hero3 from "../assets/Hero3.jpg";
-import DemoVideo from "../assets/DemoKerakish.mp4";
+import hero1 from "../assets/hero1.jpg";
+import hero2 from "../assets/hero2.jpg";
+import hero3 from "../assets/hero3.jpg";
+import DemoVideo from "../assets/demoKerakish.mp4";
 
-const images = [Hero1, Hero2, Hero3];
+const images = [hero1, hero2, hero3];
 
-const Hero = () => {
+const hero = () => {
   const [index, setIndex] = useState(0);
   const [isModalOpen, setIsModalOpen] = useState(false); // State untuk modal
 
@@ -28,7 +28,7 @@ const Hero = () => {
             <motion.img
             key={index}
             src={images[index]}
-            alt="Hero Image"
+            alt="hero Image"
             className="absolute w-full h-full object-cover"
             initial={{ opacity: 0, scale: 1.1 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -107,4 +107,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default hero;
