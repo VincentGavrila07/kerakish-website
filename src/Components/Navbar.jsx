@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-scroll";
 import { Menu, X } from "lucide-react";
-import Logo from "../assets/Logo.png";
+import logo from "../assets/Logo.png";
 
 
 const Navbar = () => {

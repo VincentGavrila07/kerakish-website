@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Wiping from "../assets/Wiping.jpg";
+import wiping from "../assets/wiping.jpg";
 
 const ContactUs = () => {
   const [formData, setFormData] = useState({ name: "", phone: "", email: "", subject: "", message: "" });
@@ -36,7 +36,7 @@ const ContactUs = () => {
         <div className="flex-grow w-full grid grid-cols-1 md:grid-cols-2">
             {/* Gambar */}
             <div className="h-full">
-            <img src={Wiping} alt="Contact Illustration" className="w-full h-full object-cover" />
+            <img src={wiping} alt="Contact Illustration" className="w-full h-full object-cover" />
             </div>
 
             {/* Contact Form */}

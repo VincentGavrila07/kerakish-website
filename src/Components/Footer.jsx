@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from "../assets/Logo.png";
+import logo from "../assets/Logo.png";
 import { Link } from "react-scroll";
 
 const Footer = () => {
