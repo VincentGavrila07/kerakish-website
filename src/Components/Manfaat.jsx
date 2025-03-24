@@ -8,7 +8,7 @@ const benefits = [
   "Lapisan perlindungan invisible - Tidak mengubah tampilan permukaan.",
   "Aman untuk berbagai permukaan - Bisa digunakan pada kaca, keramik, stainless steel, dll.",
   "Mudah digunakan - Tidak perlu menggosok keras, cukup semprot, tunggu, dan usap.",
-  "Kemasan 250ML - Praktis & efisien untuk penggunaan jangka panjang.",
+  "Kemasan 200ML - Praktis & efisien untuk penggunaan jangka panjang.",
   "Sudah terdaftar & mendapat izin PIRT - Terjamin keamanannya dan lolos standar pemerintah.",
 ];
 
