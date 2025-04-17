@@ -13,7 +13,7 @@ function App() {
     <div className="flex flex-col min-h-screen">
       <Navbar />
       <main className="flex-grow pt-20">
-        <Home/>
+        {/* <Home/> */}
         <About/>
         <BefAf/>
         <Manfaat/>

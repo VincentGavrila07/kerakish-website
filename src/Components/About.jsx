@@ -6,7 +6,11 @@ const About = () => {
   return (
     <section id="about">
     <div className="relative flex min-h-screen flex-col md:flex-row ">
+        <div className="relative w-full md:w-1/2">
+          <img src={FotoKerakish} alt="Studying Session" className="w-full h-full object-cover" />
+        </div>
         <div className="w-full md:w-1/2 bg-black bg-opacity-70 flex items-center justify-center text-white p-12">
+        
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
@@ -29,11 +33,6 @@ const About = () => {
               Buy Now
             </a>
           </motion.div>
-        </div>
-
-        {/* Image Section with Quote */}
-        <div className="relative w-full md:w-1/2">
-          <img src={FotoKerakish} alt="Studying Session" className="w-full h-full object-cover" />
         </div>
       </div>
     

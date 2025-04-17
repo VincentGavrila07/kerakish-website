@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo */}
         <a href="/">
-          <img src={logo} alt="Logo Kerakish" className="w-32 h-auto" />  
+          <img src={logo} alt="Logo Kerakish" className="w-36 h-auto" />  
         </a>
 
         {/* Desktop Menu */}

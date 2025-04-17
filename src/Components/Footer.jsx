@@ -77,7 +77,7 @@ const Footer = () => {
       {/* Copyright & Social Icons */}
       <div className="mt-10 text-center text-gray-800 border-t border-gray-700 pt-5">
         <p>
-          Copyright ©2020 All rights reserved | Block is made with by{" "}
+          Copyright ©2025 All rights reserved | Block is made with by{" "}
           <a 
             href="#" 
             className="text-gray-900 font-bold relative after:block after:w-0 after:h-[2px] after:bg-gray-900 after:transition-all after:duration-300 hover:after:w-full"
