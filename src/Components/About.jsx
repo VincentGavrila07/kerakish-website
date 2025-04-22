@@ -23,7 +23,7 @@ const About = () => {
             </h2>
             <p className="mt-6 text-base md:text-lg text-gray-300 leading-relaxed">
             Kerakish adalah produk inovatif yang dirancang untuk
-            MENCEGAH KERAK SEBELUM TERBENTUR, menjaga permukaan tetap bersih lebi lama tanpa harus sering membersihkannya. Formula khususnya menciptakan lapisan pelindung yang menghambat penumpukan kerak akibat air, sabun, atau mineral lainnya.
+            MENCEGAH KERAK SEBELUM TERBENTUK, menjaga permukaan tetap bersih lebi lama tanpa harus sering membersihkannya. Formula khususnya menciptakan lapisan pelindung yang menghambat penumpukan kerak akibat air, sabun, atau mineral lainnya.
 
             </p>
             <a 
