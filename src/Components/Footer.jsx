@@ -19,8 +19,8 @@ const Footer = () => {
             <h3 className="text-lg font-semibold">Navigation</h3>
             <ul className="mt-2 space-y-2 text-gray-800">
                 {[
-                { label: "Home", target: "home" },
-                { label: "Product", target: "about" },  // Misalnya about sebagai section Product
+                { label: "About Kerakish", target: "about" },
+                { label: "Testimoni", target: "testi" },  // Misalnya about sebagai section Product
                 { label: "Contact", target: "contact" }
                 ].map((navItem, index) => (
                 <li key={index}>
