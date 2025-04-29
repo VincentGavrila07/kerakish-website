@@ -14,6 +14,8 @@ const imageVariants = {
 
 const BefAf = () => {
   return (
+    <section id="testi">
+
     <div className="w-full py-16 bg-gray-900 text-white text-center">
       <div className="max-w-5xl mx-auto px-6">
 
@@ -65,7 +67,7 @@ const BefAf = () => {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
-          >
+            >
             <img src={Before2} alt="Before" className="w-full rounded-lg group-hover:opacity-50 transition" />
             <span className="absolute top-2 left-2 bg-red-500 text-white px-4 py-1 rounded-full text-sm">
               BEFORE
@@ -78,7 +80,7 @@ const BefAf = () => {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
-          >
+            >
             <img src={After2} alt="After" className="w-full rounded-lg group-hover:opacity-50 transition" />
             <span className="absolute top-2 left-2 bg-green-500 text-white px-4 py-1 rounded-full text-sm">
               AFTER
@@ -89,6 +91,7 @@ const BefAf = () => {
 
       </div>
     </div>
+  </section>
   );
 };
 

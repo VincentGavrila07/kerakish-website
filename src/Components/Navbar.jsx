@@ -18,13 +18,13 @@ const Navbar = () => {
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-8 text-lg font-medium">
           <Link
-            to="home"
+            to="about"
             className="cursor-pointer hover:text-yellow-400 transition"
           >
-            Home
+            About Kerakish
           </Link>
-          <Link to="about" smooth={true} duration={500} className="cursor-pointer hover:text-yellow-400 transition">
-            Product
+          <Link to="testi" smooth={true} duration={500} className="cursor-pointer hover:text-yellow-400 transition">
+            Testimoni
           </Link>
           <Link to="contact" smooth={true} duration={500} className="cursor-pointer hover:text-yellow-400 transition">
             Contact
@@ -57,7 +57,7 @@ const Navbar = () => {
               className="cursor-pointer hover:text-yellow-400 transition"
               onClick={() => setIsOpen(false)}
             >
-              Home
+              About 
             </Link>
           </li>
           <li>
